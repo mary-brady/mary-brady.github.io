@@ -1,0 +1,65 @@
+.h90 {
+    min-height: 90vh;
+}
+.h80 {
+    min-height: 80vh;
+}
+.h20 {
+    min-height: 20vh;
+}
+.nav {
+    background-color:#17212c;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: around;
+    align-items: center;
+}
+.work {
+    justify-content: center;
+    display: flex;
+    background-color: white;
+}
+.about {
+    background-color: #233142;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+.footer {
+    background-color: #233142;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
+.set-height {
+    min-height: 100%;
+}
+.icon {
+    font-size: -webkit-xxx-large;
+}
+.text {
+    font-size: small;
+}
+.borderb {
+    border-bottom: 2px solid white;
+    display: inline-block;
+    width: inherit; 
+}
+.bordera {
+    border-bottom: 2px solid white;
+}
+
+.connections {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    font-size: xx-large;
+}
+
+.connections li {
+    padding: 5px;
+}
+
+.footer ul {
+    list-style: none;
+}
