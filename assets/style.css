@@ -53,7 +53,7 @@
     display: flex;
     align-content: center;
     justify-content: space-around;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .connections li {
@@ -62,4 +62,7 @@
 
 .footer ul {
     list-style: none;
+}
+a {
+    color: inherit;
 }
