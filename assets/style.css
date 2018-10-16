@@ -63,8 +63,9 @@
 a {
     color: inherit;
 }
-i {
+.kiwi {
     font-size: 2rem;
+    color: rgb(212, 212, 212);
 }
 h1 {
     color: white;
