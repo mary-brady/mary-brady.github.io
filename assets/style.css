@@ -80,3 +80,8 @@ h1 {
 .navbar {
    padding: 8px;
   }
+  .carousel-inner{
+      max-height: 450px;
+      min-height: 450px;
+
+  }
