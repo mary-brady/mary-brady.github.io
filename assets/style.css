@@ -2,6 +2,9 @@
     min-height: 90vh;
 }
 .h80 {
+    min-height: 80vh;
+}
+.h40 {
     min-height: 40vh;
 }
 .h20 {
@@ -45,6 +48,10 @@
 .bordera {
     border-bottom: 2px solid white;
 }
+.borderc {
+    border-bottom: 2px solid #233142;
+    margin: 1rem;
+}
 
 .connections {
     display: flex;
@@ -70,3 +77,6 @@ a {
 h1 {
     color: white;
 }
+.navbar {
+   padding: 8px;
+  }
