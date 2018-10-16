@@ -34,9 +34,6 @@
 .set-height {
     min-height: 100%;
 }
-.icon {
-    font-size: -webkit-xxx-large;
-}
 .text {
     font-size: small;
 }
@@ -66,6 +63,9 @@
 a {
     color: inherit;
 }
-li {
-    list-style: none
+i {
+    font-size: 2rem;
+}
+h1 {
+    color: white;
 }

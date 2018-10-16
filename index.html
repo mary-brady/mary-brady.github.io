@@ -15,26 +15,33 @@
 </head>
 
 <body>
-    <header class="container-fluid">
-        <div class="row">
-            <div class="col-md-6">
-                <i class="fas fa-kiwi-bird icon"></i>
-            </div>
-            <div class="col-md-6 links">
-                <ul>
-                    <li>
-                        <a href="https://mary-brady.github.io/">Home</a>
-                    </li>
-                    <li>About</li>
-                    <li>Resume</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-fluid">
+        <a class="navbar-brand" href="https://mary-brady.github.io/">
+            <i class="fas fa-kiwi-bird"></i>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    </header>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <main class="container-fluid">
-        <div class="row h90 about justify-content-center align-items-center">
+        <div class="row h80 about justify-content-center align-items-center">
             <div class="col-sm-6 offset-col-2">
                 <h1 class="borderb">
                     <b>Mary Brady</b>
@@ -73,7 +80,7 @@
             </div>
         </div>
     </main>
-    <footer class="footer">
+    <footer class="footer container-fluid">
         <div class="row h20 justify-content-between text-center align-items-center set-height">
             <div class="col-sm-6 col-12 connections">
                 <!-- <ul> -->
