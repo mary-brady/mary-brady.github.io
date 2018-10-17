@@ -52,6 +52,7 @@
 .borderc {
     border-bottom: 2px solid #233142;
     margin: 1rem;
+    width: inherit;
 }
 
 .connections {
@@ -87,6 +88,8 @@ h1 {
 }
 .icons {
     font-size: xx-large;
+    min-width: 32px;
+    min-height: 32px;
 }
 .selfie {
     max-height: 350px;
@@ -97,4 +100,19 @@ h1 {
 .summary {
     color: #233142;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center
+}
+.projects {
+    display: flex;
+    align-items: center;
+}
+.skills {
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.skillicons {
+    display: flex;
+    align-items: baseline;
 }
