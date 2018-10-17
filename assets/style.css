@@ -86,11 +86,6 @@ h1 {
       max-height: 450px;
       min-height: 450px;
 }
-.icons {
-    font-size: xx-large;
-    min-width: 32px;
-    min-height: 32px;
-}
 .selfie {
     max-height: 350px;
     max-width: 250px;
@@ -115,4 +110,5 @@ h1 {
 .skillicons {
     display: flex;
     align-items: baseline;
+    font-size: 2rem
 }
